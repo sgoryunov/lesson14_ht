@@ -1,0 +1,8 @@
+#cloud-config
+users:
+  - name: sgoryunov
+    groups: sudo
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    ssh-authorized-keys:
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDi0u9pEeZXqLtcZNBCDfSGO6htd0RK7gKTQdMKEobZ6rcUYsujY3RYUVtvL0TjWKETGQLogAEL++FZycQT/LqOEfYZsfvBppoin5UU3W6Y1A9Ie6zrwtF/vtp9mtCYVVDB0vByBX0SQ5Xc6+Yf4dWROFSOYGUEMW5ybKyEceSgid7jo2IUYwFCP/tcLZcq4xokyPCX/jzMSoNCr7tK4gqOPlPF/fJIKdLnE5pmE8pLZV9Xl2nWuDs8614mPgOuWxq4BTboosPFId72tccNPKfqaXr9Nioypq+boJtJIb3Hj33sRWa5mdw2XINq3gv/wgola9blldWhuEB4kjLNG/etPFf6KQXKckoVVhd/Z3235Z62NtOpUe6Uekr8txitLWX2SW7x7TJDfgsHbslT2muvtdND6NZMoYHDG6nKQRtDHsmU1bgWNat3B6kkWZkojKva7BEIXu4q7i9Hd6zn+8dC3fUMQeniGvg36pIzQVkRLTv0eWt8Yq0QtGhY4zKVllk= sgoryunov@DESKTOP-Q8Q1PDL
